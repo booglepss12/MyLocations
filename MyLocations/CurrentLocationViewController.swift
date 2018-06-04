@@ -8,7 +8,17 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class CurrentLocationViewController: UIViewController {
+    @IBOutlet weak var messageLable: UILabel!
+    @IBOutlet weak var lattitudeLabel: UILabel!
+    @IBOutlet weak var longitudeLabel:UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var tagButton: UIButton!
+    @IBOutlet weak var getButton: UIButton!
+    
+    @IBAction func getLocation(){
+        //do nothing yet
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
